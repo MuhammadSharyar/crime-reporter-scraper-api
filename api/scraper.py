@@ -1,6 +1,8 @@
 from requests_html import HTMLSession
 import os
 
+os.environ['URL'] = 'http://localhost:3000/'
+
 class Scraper():
 
     def scrapedata(self):
